@@ -18,7 +18,20 @@ a {
     text-decoration: none;
 }
 
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+    color: inherit;
+}
+
 button {
-    background-color: #fff;
     border: none;
+    outline: none;
+    background: transparent;
+}
+
+.icon {
+    filter: var(--icon-color);
 }
